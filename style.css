@@ -1,0 +1,482 @@
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400;500;600;700&family=Kalnia:wght@300&family=Noto+Sans+TC:wght@300;400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Questrial', sans-serif;
+    color: #fff;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+.cursor {
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    position: fixed;
+    background-color: blue;
+    z-index: 8 ;
+    mix-blend-mode: difference;
+    /*change from one position to another*/
+    /*same property for both the x and y axes*/
+    transition: left linear 0.1s top linear 0.1s;
+}
+
+.main {
+    background-color: #0F0D0D;
+}
+
+.page1{
+    min-height: 100vh;
+    width: 100%;
+    position: relative;
+    /*make z index of page1 greater than that of the cursor so it "sits" in front of it"*/
+    z-index: 9;
+}
+
+#nav {
+    height: 50px;
+    width: 100%;
+    /*background-color: red;*/
+    display: flex;
+    align-items: center;
+    justify-content: space-between ;
+    padding: 20px 30px 0px 30px ;
+    /*padding: 0 30px;*/
+}
+
+#nav h3{
+    /*font-family: 'DynaPuff', system-ui;*/
+    /*font-family: 'Noto Sans TC', sans-serif;*/
+    font-size: 20px;
+    text-decoration: line-through rgb(255, 0, 0, .5);
+}
+
+#seeker {
+    font-size: 20px;
+}
+
+/*can remove this*/
+#nav h4 {
+    font-size: 14px;
+    /*text-transform: uppercase;*/
+    font-weight: 400px;
+}
+
+#navbar1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+#navbar2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+#navbar1 h4:nth-child(1){
+    border-bottom: 1.5px solid #fff;
+}
+
+/*For the text on the landing page*/
+
+.page1 h1{
+    font-size: 8vw;
+    font-weight: 500;
+    /*margin-top: 12vw;*/
+    margin-top: 15vw;
+    margin-left: 8vw;
+    /*font-family: PP mori;*/
+}
+.page1 h2{
+    font-size: 7vw;
+    font-weight: 300;
+    margin-left: 16vw;
+    /*font-family: PP mori;*/
+}
+
+.page1 span {
+    font-size: 8vw;
+    font-weight: 800;
+}
+
+
+/*vieo*/
+.page1 video {
+    width: 60%;
+    height: auto;
+    margin-top: 10vw;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%,0);
+}
+
+
+
+/*PAGE 2        PAGE 2        PAGE 2 */
+
+.page2{
+   /*min-height: 80vh; can adjust*/
+   height: 80vh; 
+   width: 100%; 
+   padding: 100px 7vw;
+   border-bottom: 2px solid black;
+   position: relative;
+   /*make z index of page2 greater than that of the cursor so it "sits" in front of it"*/
+   z-index: 9;
+}
+
+.page2 h1{
+    font-size: 6.5vw;
+    font-weight: 300;
+    color: #111;   
+}
+
+.page2-container{
+    height: 50vh;
+    width: 100%;
+    /*background-color: red;*/
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /*padding: 0 5vw;*/
+}
+
+.page2-left-content{
+    /*background-color: blue;*/
+    width: 30%; /*adjust*/
+}
+
+.page2-left-content h2{
+    text-transform: uppercase;
+    line-height: 3rem;
+    font-size: 3vw;
+    font-weight: 200;
+    color: #111;
+}
+
+.page2-right-content{
+    /*background-color: blue;*/
+    width: 30%; /*adjust*/
+}
+
+.page2-right-content p{
+    font-size: 24px;
+    color: #111;
+}
+
+.page2-right-content button {
+    width: 100%;
+    border-radius: 50px;
+    border: none;
+    padding: 5px 0px;
+    background-color:  #A7C7E7;
+    margin-top: 20px;
+    font-weight: 800;
+    font-size: 15px;
+    color: black;
+}
+
+
+/*page 3         PAGE 3        PAGE 3  */
+
+.page3 {
+    /*min-height:250vh; /*edit this*/
+    min-height: 100vh;
+    width: 100%;
+    padding-top: 50px;
+    position: relative;
+    /*make z index of page3 greater than that of the cursor so it "sits" in front of it"*/
+    z-index: 9;
+    border-bottom: solid 2px black;
+}
+
+.page3 h1{
+    font-size: 7vw;
+    font-weight: 300;
+    color: #111; 
+    margin-left: 100px;
+}
+
+.form-group {
+    margin-left: 50px;
+}
+
+#search{
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    margin-left: 100px;
+    width: 800px;
+    border: none;
+    border-bottom: solid 2px black;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    background-color: #fff;
+    /*height: 1.5rem*/
+}
+
+/*when you click on the search box i.e bring it to focus, the following will happen*/
+#search:focus {
+    outline: none;
+    border-color: #A7C7E7; 
+    box-shadow: 0 0 5px rgb(167, 199, 231, 0.5);
+}
+
+#search::placeholder{
+    font-size: 30px;
+}
+
+#search.user-input {
+    font-size: 30px;
+    color: black;
+}
+
+
+.search-results {
+    display: flex;
+    /*justify-content: space-between;*/
+    flex-wrap: wrap;
+    max-width:100%;
+   /* margin: 0 auto;*/
+    margin-left: 100px;
+    padding-bottom: 100px;
+    padding-left: 50px;
+}
+
+.anime-result{
+    width: 16%;
+    height: 300px;
+    overflow: hidden;
+    /*border: 2px solid yellow;*/
+    position: relative;
+    overflow: hidden;
+    border-radius: 20px;
+    margin-right: 30px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.anime-result:hover .movie-content{
+    right: 0;
+
+}
+
+.anime-img .img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.movie-content{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: -100%;
+    position: absolute;
+    background: rgb(0, 0, 0, 0.8);
+    backdrop-filter: blur (40px);
+    border-radius: 15px;  
+    color: #fff;  
+    padding: 10px;
+    line-height: 1.3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: 1s;
+
+}
+
+.movie-content h2{
+    /*text-transform: uppercase;*/
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.button button{
+    border: none;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    background-color: white;
+
+}
+.button a{
+    text-decoration: none;
+    font-size: 15px;
+    text-align: center;
+    color: black;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+/*PAGE 4         PAGE 4      PAGE 4*/
+.page4 {
+    position: relative;
+    max-height: 100vh; 
+    width: 100%;
+    z-index: 9;
+    overflow: hidden;
+}
+
+.page4 .bg{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    z-index: -1;
+}
+
+.page4 .bg::before{
+    content: '';
+    position: absolute;
+    margin-top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    /*background-color:#0F0D0D ;*/
+    z-index: 1;
+}
+
+.page4 .bg video {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    position: relative;
+}
+
+.page4 .first-container .first{
+    margin: 80px 0;
+    padding: 40px;
+    text-align: center;
+    align-items: center;
+    /*background-color: red;*/
+    display: flex;
+    align-items: center;
+    justify-content: space-around;   
+}
+
+.page4 .first-container .first h1{
+    font-size: 80px;
+
+}
+
+.page4 .first-container .first .about{
+    display: flex;
+}
+
+.page4 .first-container .first .about h4{
+    margin: 0;
+    border: 1px solid #fff;
+    font-size: 30px;
+    border-radius: 20px;
+    padding: 7px 10px;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all ease 1s;
+}
+
+.page4 .first-container .first:hover h4{
+    opacity: 1;
+    transform: translateY(0) ;
+}
+
+
+/*PAGE 5        PAGE 5        PAGE 5*/
+.page5{
+    padding: 120px 7vw 0 7vw;
+    border-bottom: 2px solid black;
+    height: 132vh;
+    width: 100%;
+    background-color: #A7C7E7;
+    position: relative;
+    /*make z index of page5 greater than that of the cursor so it "sits" in front of it"*/
+    z-index: 9;
+}
+
+.text1 {
+    width: 90%;
+    
+}
+.text1 h1 {
+    font-size: 4vw;
+    margin-left: 100px;
+    text-transform: uppercase;
+    /*background-color: aqua;*/
+    padding-bottom: 100px;
+    border-bottom: solid 2px black;
+    color: black;
+}
+
+.text2 h3{
+    color: black;
+    margin-top: 100px;
+    font-size: 30px;
+    margin-left: 100px;
+    
+}
+
+#search-email{
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+    margin-left: 100px;
+    width: 800px;
+    border: none;
+    border-bottom: solid 2px black;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    background-color: #A7C7E7;
+    /*background-color: aqua;*/
+}
+#search-email:focus {
+    outline: none;
+    border-color: none; 
+    /*box-shadow: 0 0 5px rgba(229, 7, 7, 0.2) ;*/
+}
+
+#search-email::placeholder{
+    font-size: 30px;
+}
+
+#search-email.user-input {
+    font-size: 30px;
+    color: black;
+}
+
+.email-group button {
+    padding: 12px;
+    color: black;
+    background-color: #A7C7E7;
+    border-radius: 20px;
+    border: solid 1px black;
+    width: 150px;
+    font-size: 20px;
+}
+
+.email-group button:hover{
+    background-color: #fff;
+    border: none;
+}
+
+.footer{
+    display: flex;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+.footer p{
+    color: black;
+}
