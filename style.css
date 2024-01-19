@@ -372,7 +372,6 @@ html, body {
 
 .page4 .first-container .first h1{
     font-size: 80px;
-
 }
 
 .page4 .first-container .first .about{
@@ -481,6 +480,7 @@ html, body {
     color: black;
 }
 
+
 @media (max-width: 1230px){
     #search-email{
         width: 600px;
@@ -532,6 +532,9 @@ html, body {
 @media (max-width: 790px){
     #search-email{
         width: 300px;
+    }
+    .page4 .first-container .first h1{
+        font-size: 60px;
     }
 
 }
