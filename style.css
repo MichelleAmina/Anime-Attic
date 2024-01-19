@@ -481,7 +481,18 @@ html, body {
     color: black;
 }
 
+@media (max-width: 1230px){
+    #search-email{
+        width: 600px;
+    }
+
+}
+
 @media (max-width: 1060px) {
+    .search-results {
+        padding-right: 80px;
+    }
+
     .anime-result{
         width: 30%;
         height: 300px;
@@ -510,6 +521,17 @@ html, body {
         top: 0;
     
     }
+
+    #search-email{
+        width: 400px;
+    }
     
    
+}
+
+@media (max-width: 790px){
+    #search-email{
+        width: 300px;
+    }
+
 }
