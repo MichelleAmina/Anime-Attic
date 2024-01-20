@@ -24,8 +24,8 @@ anim.js = contains javascript code that controls all interactivity and animation
 
 
 ## To run the program/ setup instructions 
-After opening the program, in your terminal, run the following command to get the backend started:
-          json-server --watch db.json
+Link to github pages 
+https://michelleamina.github.io/Anime-Attic/
 
 Launch your browser of choice and allow the application to load. Welcome to Anime Attic! As you scroll through the site i hope you have a visually appealing time and enjoy the anime on display. At "Find The Anime For You.." there's an input area. Search for an anime by name, (here are a few suggestions: bleach, kakegurui, Jujutsu Kaisen, Solo leveling) or by genre (action, mystery, adventure etc). Cards displaying the search results with then load on screen. On hovering over the cards, details about the anime will appear such as the name, (english and japanese), number of episodes, status as well as a button linking to an external site where you can get more information on the specific anime. Keep scrolling down.....we're not done yet. On the following page, spend some time hovering in and out of "Popular", "New" or "Trending" to get a background video displaying an anime that falls in either category.
 
