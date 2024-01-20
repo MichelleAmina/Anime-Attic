@@ -96,21 +96,7 @@ let tl3 = gsap.timeline({
 tl3.to(".main",{
     backgroundColor:"#0F0D0D"
 })
-/*
-let tl4 = gsap.timeline({
-    scrollTrigger:{
-        trigger:".page1 h1",
-        scroller:".main",
-        markers:true,
-        start:"top -400%",
-        end:"top -420%",
-        scrub:3
-    }
-})
-tl4.to(".main",{
-    backgroundColor:"#A7C7E7",
-},"anim")
-*/
+
 
 //JS to deal with page 4 animations 
 function part4(){
