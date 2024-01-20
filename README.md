@@ -42,6 +42,7 @@ Launch your browser of choice and allow the application to load. Welcome to Anim
 - Line 121 anim.js
 4. Mouseleave
 - Line 140 anim.js
+
 ##
 Some interactivity is required.
 1. The website shows interactivity through the scroll and hover effects found throughout the page. 
@@ -49,6 +50,15 @@ Some interactivity is required.
 - Page 3. When hovering over different anime, anime details pop up. 
 - Page 4. When hovering over different statements, different anime previews play in the background. 
 These allow the user to interact with the site and not have a static experience 
+
+##
+Utilizing functions to abstract repetitive code.
+1. Line 24 script.js
+2. Line 32 script.js
+3. Line 41 script.js
+4. Line 52 script.js
+5. Line 64 script.js
+6. Line 114 anim.js
 
 
 
