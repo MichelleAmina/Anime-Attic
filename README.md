@@ -27,7 +27,8 @@ After opening the program, in your terminal, run the following command to get th
           json-server --watch db.json
 
 Launch your browser of choice and allow the application to load. Welcome to Anime Attic! As you scroll through the site i hope you have a visually appealing time and enjoy the anime on display. At "Find The Anime For You.." there's an input area. Search for an anime by name, (here are a few suggestions: bleach, kakegurui, Jujutsu Kaisen, Solo leveling) or by genre (action, mystery, adventure etc). Cards displaying the search results with then load on screen. On hovering over the cards, details about the anime will appear such as the name, (english and japanese), number of episodes, status as well as a button linking to an external site where you can get more information on the specific anime. Keep scrolling down.....we're not done yet. On the following page, spend some time hovering in and out of "Popular", "New" or "Trending" to get a background video displaying an anime that falls in either category. 
-### Warning you might have to reload the page a few times before scrolling, to allow everything to load properly. The videos may take a while to load so keep refreshing until you see the first video on page 1 has began to play. 
+### Warning you might have to reload the page a few times before scrolling, to allow everything to load properly. The videos may take a while to load so keep refreshing until you see the first video on page 1 has began to play. The final page (page5) may also set itself poorly and be longer than the set 132vh. Reload a few times for it to set itself correctly. 
+###
 
 ## Licence 
 
