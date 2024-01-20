@@ -391,6 +391,8 @@ html, body {
 }
 
 
+
+
 /*PAGE 5        PAGE 5        PAGE 5*/
 .page5{
     padding: 120px 7vw 0 7vw;
@@ -477,6 +479,8 @@ html, body {
 }
 
 
+
+/* MEDIA QUERIES*/
 @media (max-width: 1230px){
     #search-email{
         width: 600px;
@@ -583,7 +587,6 @@ html, body {
 
 }
 
-
 @media (max-width: 600px){
     .page2-left-content{
         /*background-color: blue;*/
@@ -598,6 +601,4 @@ html, body {
         padding: 100px 7vw;
         background-color: #fff;
      }
-    
-
 }
