@@ -103,10 +103,6 @@ html, body {
     /*font-family: PP mori;*/
 }
 
-.page1 span {
-    font-size: 8vw;
-    font-weight: 800;
-}
 
 
 /*vieo*/
@@ -498,6 +494,20 @@ html, body {
 }
 
 @media (max-width: 1060px) {
+    .page1 h1{
+        font-size: 8vw;
+        margin-left: 22vw;
+       
+    }
+
+    .page1 h2{
+        font-size: 7vw;
+        margin-left: 5vw;   
+    }
+
+    #search-form{
+      padding-right: 80px;
+    }
     .search-results {
         padding-right: 80px;
     }
@@ -519,6 +529,7 @@ html, body {
     }
     #search{
         margin-left: 80px;
+        width: 750px;
     }
 
     .movie-content{
