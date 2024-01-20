@@ -45,7 +45,8 @@ Launch your browser of choice and allow the application to load. Welcome to Anim
 ##
 Some interactivity is required.
 1. The website shows interactivity through the scroll and hover effects found throughout the page. 
-
+- While scrolling, the page background color changes on multiple pages
+- Page 3. When hovering over different anime, anime details pop up. 
 
 
 
