@@ -551,7 +551,12 @@ html, body {
         margin-left: 50px;
         width: 600px;
     }
+    .page2{
+        padding: 100px 7vw;
+        background-color: #6c6868;
+     }
 }
+
 
 
 @media (max-width: 790px){
@@ -579,8 +584,24 @@ html, body {
     #search::placeholder{
         font-size: 25px;
     }
+
+}
+
+
+@media (max-width: 600px){
+    .page2-left-content{
+        /*background-color: blue;*/
+        width: 30%; /*adjust*/
+    }
     
-
-
+    .page2-right-content{
+        /*background-color: blue;*/
+        width: 50%; /*adjust*/
+    }
+    .page2{
+        padding: 100px 7vw;
+        background-color: #fff;
+     }
+    
 
 }
