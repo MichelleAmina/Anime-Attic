@@ -42,6 +42,11 @@ Launch your browser of choice and allow the application to load. Welcome to Anim
 - Line 121 anim.js
 4. Mouseleave
 - Line 140 anim.js
+##
+Some interactivity is required.
+1. The website shows interactivity through the scroll and hover effects found throughout the page. 
+
+
 
 
 ## Licence 
