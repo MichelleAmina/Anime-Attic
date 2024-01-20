@@ -35,7 +35,11 @@ Launch your browser of choice and allow the application to load. Welcome to Anim
 ##
 3 separate event listeners (DOMContentLoaded, click, change, submit, etc) 
 1. DOMContentLoaded 
-- 
+- Line 1 script.js
+2. Submit 
+- Line 8 script.js
+3. Mouseenter
+- Line 121 anim.js
 
 
 ## Licence 
