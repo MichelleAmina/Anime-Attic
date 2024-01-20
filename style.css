@@ -541,9 +541,7 @@ html, body {
 
     #search-email{
         width: 400px;
-    }
-    
-   
+    }  
 }
 
 @media (max-width: 978px){
@@ -556,8 +554,6 @@ html, body {
         background-color: #6c6868;
      }
 }
-
-
 
 @media (max-width: 790px){
     .page5{
