@@ -505,9 +505,6 @@ html, body {
         margin-left: 5vw;   
     }
 
-    #search-form{
-      padding-right: 80px;
-    }
     .search-results {
         padding-right: 80px;
     }
@@ -549,6 +546,14 @@ html, body {
    
 }
 
+@media (max-width: 978px){
+    #search{
+        margin-left: 50px;
+        width: 600px;
+    }
+}
+
+
 @media (max-width: 790px){
     .page5{
         height: 90vh;   
@@ -565,5 +570,17 @@ html, body {
         padding: 7px 10px;
         width: 200px;
     }
+
+    #search{
+        margin-left: 50px;
+        width: 400px;
+    }
+
+    #search::placeholder{
+        font-size: 25px;
+    }
+    
+
+
 
 }
