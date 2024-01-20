@@ -40,9 +40,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
     function fetchAnimeDataByGenre(genre) {
         // Fetch anime data based on the entered genre
-        const endpoint = `https://api.jikan.moe/v4/anime?q=${genre}&sfw`;
 
-        fetch(endpoint)
+        fetch(`https://api.jikan.moe/v4/anime?q=${genre}&sfw`)
             .then((resp) => resp.json())
             .then((data) => {
                 handleData(data.data);
