@@ -11,7 +11,7 @@
 
 4. Some interactivity is required. This could be as simple as adding a "like" button or adding comments. These interactions do not need to persist after reloading the page.
 
-4. Follow good coding practices. Keep your code DRY (Do not repeat yourself) by utilizing functions to abstract repetitive code.
+5. Follow good coding practices. Keep your code DRY (Do not repeat yourself) by utilizing functions to abstract repetitive code.
 
 ### Stretch Goals
 Use json-serverLinks to an external site. in your project to persist your app's interactivity
@@ -47,6 +47,8 @@ Some interactivity is required.
 1. The website shows interactivity through the scroll and hover effects found throughout the page. 
 - While scrolling, the page background color changes on multiple pages
 - Page 3. When hovering over different anime, anime details pop up. 
+- Page 4. When hovering over different statements, different anime previews play in the background. 
+These allow the user to interact with the site and not have a static experience 
 
 
 
