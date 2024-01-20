@@ -40,6 +40,8 @@ Launch your browser of choice and allow the application to load. Welcome to Anim
 - Line 8 script.js
 3. Mouseenter
 - Line 121 anim.js
+4. Mouseleave
+- Line 140 anim.js
 
 
 ## Licence 
